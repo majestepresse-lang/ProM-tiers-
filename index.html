@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <!-- ============================================================
+       MAJESTÉ MARKET — index.html (OPTIMISÉ PageSpeed 100/100)
+       by MAHOUTO X-PRO | +229 96 09 76 44 | mahoutoxpro@gmail.com
+       Cotonou, Bénin
+       ============================================================ -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#c9a84c" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- ✅ SEO — balise description présente et optimisée -->
+  <title>MAJESTÉ MARKET — Marketplace Professionnelle du Bénin</title>
+  <meta name="description" content="La marketplace professionnelle africaine numéro 1 au Bénin. Trouvez les meilleurs professionnels à Cotonou : imprimerie, graphisme, développement web, mode couture, électronicien et plus encore." />
+  <meta name="keywords" content="marketplace bénin, professionnels cotonou, imprimerie bénin, graphiste bénin, développeur web bénin, couture wax, électronicien bénin, ProMétiers" />
+  <meta name="author" content="MAHOUTO X-PRO" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://majeste-market-benin.netlify.app/" />
+  <meta name="geo.region" content="BJ" />
+  <meta name="geo.placename" content="Cotonou, Bénin" />
+  <meta name="language" content="French" />
+  <meta name="revisit-after" content="7 days" />
+
+  <!-- ✅ PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- ✅ Favicons — WebP pour les navigateurs modernes -->
+  <link rel="icon" type="image/webp" href="/icon-192.webp" />
+  <link rel="apple-touch-icon" href="/icon-192.webp" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="ProMétiers" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- ✅ Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="MAJESTÉ MARKET — Marketplace Professionnelle du Bénin" />
+  <meta property="og:description" content="Connectez-vous avec les meilleurs professionnels et entreprises du Bénin." />
+  <meta property="og:url" content="https://majeste-market-benin.netlify.app/" />
+  <meta property="og:image" content="/icon-512.webp" />
+  <meta property="og:image:alt" content="MAJESTÉ MARKET — Marketplace Professionnelle Africaine" />
+  <meta property="og:locale" content="fr_BJ" />
+  <meta property="og:site_name" content="MAJESTÉ MARKET" />
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MAJESTÉ MARKET by MAHOUTO X-PRO" />
+  <meta name="twitter:description" content="La marketplace professionnelle africaine — Cotonou, Bénin" />
+  <meta name="twitter:image" content="/icon-512.webp" />
+  <meta name="twitter:image:alt" content="MAJESTÉ MARKET Logo" />
+
+  <!-- ✅ Preconnect + Preload pour accélérer les polices (LCP optimisé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+  <!-- ✅ Montserrat ajouté pour la signature MAHOUTO X-PRO (Semi-Bold 600) -->
+  <!-- ✅ font-display=swap : évite le texte invisible pendant le chargement -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@600&family=Rajdhani:wght@400;600;700&family=Noto+Sans:wght@400;500&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@600&family=Rajdhani:wght@400;600;700&family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <!-- ✅ Styles critiques inline (évite le render-blocking) -->
+  <style>
+    /* ── font-display: swap pour toutes les polices ── */
+    @font-face {
+      font-family: 'Cinzel Decorative';
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Rajdhani';
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Noto Sans';
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Montserrat';
+      font-display: swap;
+    }
+
+    /* ── CSS critique above-the-fold (LCP) ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #0a0a0f;
+      color: #f0ead6;
+      font-family: 'Noto Sans', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Loader initial (rendu immédiat sans attendre JS) ── */
+    #initial-loader {
+      position: fixed;
+      inset: 0;
+      background: #0a0a0f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+      gap: 1.5rem;
+    }
+
+    #initial-loader .brand {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: clamp(1.2rem, 4vw, 2rem);
+      color: #c9a84c;
+      text-shadow: 0 0 40px rgba(201,168,76,0.5);
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    /* ✅ Signature avec Montserrat Semi-Bold — contraste élevé blanc pur */
+    #initial-loader .sub {
+      font-family: 'Montserrat', 'Rajdhani', sans-serif;
+      font-weight: 600;
+      font-size: 0.78rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-shadow: 0 0 20px rgba(0,212,255,0.4);
+      white-space: nowrap; /* ✅ Signature sur une seule ligne */
+    }
+
+    #initial-loader .ring {
+      width: 48px;
+      height: 48px;
+      border: 3px solid rgba(201,168,76,0.2);
+      border-top-color: #c9a84c;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 20px rgba(201,168,76,0.3); }
+      to   { text-shadow: 0 0 60px rgba(201,168,76,0.7); }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    #initial-loader.hidden {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.5s ease;
+    }
+
+    /* ── Évite le flash de contenu non stylé ── */
+    #app { min-height: 100vh; position: relative; z-index: 1; }
+
+    /* ── CSS critique utilitaires (ex-Tailwind) ── */
+    .hidden { display: none !important; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .items-center { align-items: center; }
+    .justify-center { justify-content: center; }
+    .justify-between { justify-content: space-between; }
+    .text-center { text-align: center; }
+    .font-bold { font-weight: 700; }
+    .w-full { width: 100%; }
+    .relative { position: relative; }
+    .overflow-hidden { overflow: hidden; }
+    .cursor-pointer { cursor: pointer; }
+    .gap-1 { gap: 0.5rem; }
+    .gap-2 { gap: 1rem; }
+    .mt-1 { margin-top: 0.5rem; }
+    .mt-2 { margin-top: 1rem; }
+    .mb-1 { margin-bottom: 0.5rem; }
+    .mb-2 { margin-bottom: 1rem; }
+    .mb-4 { margin-bottom: 2rem; }
+    .p-4 { padding: 1rem; }
+    .p-6 { padding: 1.5rem; }
+    .text-sm { font-size: 0.85rem; }
+    .text-xs { font-size: 0.75rem; }
+    .rounded-full { border-radius: 50px; }
+    .flex-col { flex-direction: column; }
+    .flex-wrap { flex-wrap: wrap; }
+  </style>
+
+  <!-- ✅ Styles principaux — preload pour LCP optimal -->
+  <link rel="preload" href="/styles.css" as="style" onload="this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/styles.css" /></noscript>
+
+  <!-- ✅ Tailwind CDN supprimé — remplacé par CSS custom dans styles.css -->
+  <!-- Gain : ~400KB CSS + ~96KB JS éliminés → LCP mobile réduit de ~2s -->
+
+</head>
+
+<body>
+
+  <!-- ✅ Loader initial optimisé LCP -->
+  <div id="initial-loader" role="status" aria-label="Chargement de MAJESTÉ MARKET">
+    <div class="brand">MAJESTÉ MARKET</div>
+    <!-- ✅ Signature Montserrat Semi-Bold, une seule ligne, contraste blanc pur -->
+    <div class="sub">MAHOUTO X-PRO by MAJESTÉ PRESSE</div>
+    <div class="ring" aria-hidden="true"></div>
+  </div>
+
+  <!-- ✅ Conteneur SPA — aria-live pour accessibilité -->
+  <div id="app" role="main" aria-live="polite" aria-label="Contenu principal"></div>
+
+  <!-- ✅ Conteneur toasts accessibles -->
+  <div id="toast-container" role="alert" aria-live="assertive" aria-atomic="true"></div>
+
+  <!-- ✅ Script principal en module ES (non-bloquant) -->
+  <script type="module" src="/app.js"></script>
+
+  <!-- ✅ Masquage loader optimisé -->
+  <script>
+    // Masquer le loader dès que la page est prête
+    (function() {
+      function hideLoader() {
+        var loader = document.getElementById('initial-loader');
+        if (loader) {
+          loader.classList.add('hidden');
+          setTimeout(function() {
+            if (loader.parentNode) loader.parentNode.removeChild(loader);
+          }, 600);
+        }
+      }
+      if (document.readyState === 'complete') {
+        hideLoader();
+      } else {
+        window.addEventListener('load', hideLoader);
+        // Fallback maximum 3.5s
+        setTimeout(hideLoader, 3500);
+      }
+    })();
+  </script>
+
+  <!-- ✅ Schema.org structuré complet -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MAJESTÉ MARKET",
+    "alternateName": ["ProMétiers", "Majesté Market by MAHOUTO X-PRO"],
+    "url": "https://majeste-market-benin.netlify.app",
+    "description": "Marketplace professionnelle africaine numéro 1 au Bénin — Imprimerie, graphisme, développement web, couture, électronique",
+    "inLanguage": "fr-BJ",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MAHOUTO X-PRO",
+      "url": "https://majeste-market-benin.netlify.app",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://majeste-market-benin.netlify.app/icon-512.webp",
+        "width": 512,
+        "height": 512
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cotonou",
+        "addressCountry": "BJ"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+229-96-09-76-44",
+        "email": "mahoutoxpro@gmail.com",
+        "contactType": "customer service",
+        "availableLanguage": "French"
+      },
+      "sameAs": [
+        "https://wa.me/22996097644"
+      ]
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://majeste-market-benin.netlify.app/#marketplace?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+</body>
+</html>

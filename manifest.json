@@ -1,0 +1,44 @@
+{
+  "name": "ProMétiers by MAHOUTO X-PRO",
+  "short_name": "ProMétiers",
+  "description": "Marketplace professionnelle africaine — Bénin. Trouvez les meilleurs professionnels et services à Cotonou.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#c9a84c",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "shopping"],
+  "icons": [
+    {
+      "src": "/icon-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Marketplace",
+      "short_name": "Services",
+      "url": "/#marketplace",
+      "icons": [{ "src": "/icon-192.webp", "sizes": "192x192", "type": "image/webp" }]
+    },
+    {
+      "name": "Mon Dashboard",
+      "short_name": "Dashboard",
+      "url": "/#dashboard",
+      "icons": [{ "src": "/icon-192.webp", "sizes": "192x192", "type": "image/webp" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
